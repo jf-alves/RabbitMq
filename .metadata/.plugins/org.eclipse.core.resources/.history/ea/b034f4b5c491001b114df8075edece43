@@ -1,0 +1,18 @@
+package com.spring.producer.configuration;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class ProducerRabbitConfiguration {
+
+	//indica a rota
+	@Value("${spring.rabbitmq.request.routing-key.producer}")
+	private String queue;
+	
+	@Value("${spring.rabitmq.request.exchange.producer}")
+	private String exchange;
+	
+	@Value("${spring.rabbit.request.deadletter.producer}")
+	private String deadletter;
+}

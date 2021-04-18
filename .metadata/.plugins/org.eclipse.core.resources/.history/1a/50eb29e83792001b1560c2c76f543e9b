@@ -1,0 +1,6 @@
+package com.spring.producer.service;
+
+public interface AmqpService {
+	void sendToConsumer();
+
+}

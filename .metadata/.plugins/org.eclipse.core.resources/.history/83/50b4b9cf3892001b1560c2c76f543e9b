@@ -1,0 +1,5 @@
+package com.spring.producer.service.implementation;
+
+public class RabbitMQServiceImpl {
+
+}

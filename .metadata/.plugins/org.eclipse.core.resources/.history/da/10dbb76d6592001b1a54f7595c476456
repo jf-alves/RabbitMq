@@ -1,0 +1,5 @@
+package com.spring.consumer.amqp;
+
+public class AmqpConsumer {
+
+}

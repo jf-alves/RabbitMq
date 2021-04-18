@@ -1,0 +1,5 @@
+package com.spring.consumer.dto;
+
+public class Message {
+
+}

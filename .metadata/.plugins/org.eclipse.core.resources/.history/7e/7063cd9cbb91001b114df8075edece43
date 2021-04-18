@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: quest
+    password: guest
+    exchange:
+       producer: ex.producer.aula-spring
+    rousting-key:
+       producer: rk.producer.aula-spring
+     deadletter: 
+       producer: dl.producer.aula-spring   

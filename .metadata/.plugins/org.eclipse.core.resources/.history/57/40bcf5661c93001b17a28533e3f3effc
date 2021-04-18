@@ -1,0 +1,5 @@
+package com.spring.consumer.amqp.implementation;
+
+public class RabbitMQConsumer {
+
+}

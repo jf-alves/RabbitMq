@@ -1,0 +1,5 @@
+package com.spring.consumer.service;
+
+public class ConsumerService {
+
+}
